@@ -92,6 +92,69 @@
   margin-left: 4px;
 }
 
+body {
+  background-color: #fff;
+  font-family: Roboto;
+  color: #111212;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 42px;
+  line-height: 54px;
+  font-weight: 400;
+}
+
+h2 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 400;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  line-height: 24px;
+}
+
 a {
   display: block;
   -webkit-transition: color 400ms ease, opacity 400ms ease, -webkit-transform 400ms ease;
@@ -3122,7 +3185,6 @@ blockquote {
 .products1-actions-wrap.products1-actions-wrap-dark {
   border-top-color: hsla(0, 0%, 100%, 0.06);
 }
-
 
 .products1-desc-wrap {
   margin-bottom: 5px;
@@ -6363,7 +6425,6 @@ blockquote {
   .nav2-menu-wrapper-dark {
     display: -webkit-box;
     display: -webkit-flex;
-
     display: -ms-flexbox;
     display: flex;
     margin-right: 30px;
@@ -7082,7 +7143,6 @@ blockquote {
     position: relative;
     z-index: 20;
   }
-
   .structure-menu {
     z-index: 10;
   }
@@ -7895,5 +7955,39 @@ blockquote {
     align-self: center;
   }
 }
-
-
+@font-face {
+  font-family: 'Circularstd';
+  src: url('https://uploads-ssl.webflow.com/5ced41ebf93b73c758a2e046/5d0c342614a590dd3efbeb4d_CircularStd-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Circularstd book';
+  src: url('https://uploads-ssl.webflow.com/5ced41ebf93b73c758a2e046/5d0c3426409e5b15ba6e32d2_CircularStd-Book.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sf pro display';
+  src: url('https://uploads-ssl.webflow.com/5ced41ebf93b73c758a2e046/5cf32df673a6232e24b291b8_SF-Pro-Display-Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sf pro display';
+  src: url('https://uploads-ssl.webflow.com/5ced41ebf93b73c758a2e046/5cf32df69af399481f9c9ce6_SF-Pro-Display-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sf pro display';
+  src: url('https://uploads-ssl.webflow.com/5ced41ebf93b73c758a2e046/5cf32df66e00f59c9e37a96e_SF-Pro-Display-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sf pro display';
+  src: url('https://uploads-ssl.webflow.com/5ced41ebf93b73c758a2e046/5cf32ca873a6235d58b290cd_SF-Pro-Display-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
